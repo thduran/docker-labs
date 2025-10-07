@@ -32,7 +32,7 @@ Comparação de Imagens
 ## 🧪 Lab 2: Docker Commit - criando imagem
 
 ⚠️ Apenas Dockerfile é recomendado; docker commit ajuda a entender camadas.
-
+\
 Subindo container ubuntu
 ```bash
 docker run -it --name ubuntu-commit ubuntu:20.04 bash
@@ -56,7 +56,7 @@ docker image history thiagoduran/ubuntu-curl:v1
 ```
 
 O tamanho da nova imagem dobrou (147MB), pois uma nova camada foi adicionada.
-
+\
 
 ❌ Por que evitar docker commit?
 
@@ -93,4 +93,4 @@ docker run -it thiagoduran/alpine-cow:v1 sh
 cat /tmp/arquivo.txt
 ```
 
-"Hello" foi mostrado, ou seja, a modificação virou nova camada.
+>> "Hello" foi mostrado, ou seja, a modificação virou nova camada.
