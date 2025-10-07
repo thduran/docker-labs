@@ -93,4 +93,4 @@ docker run -it thiagoduran/alpine-cow:v1 sh
 cat /tmp/arquivo.txt
 ```
 
->> "Hello" foi mostrado, ou seja, a modificação virou nova camada.
+> "Hello" foi mostrado, ou seja, a modificação virou nova camada.
