@@ -1,13 +1,13 @@
 ## 🔬 Lab 1: Verificando imagens
 
-1. Obter imagens
+Obter imagens
 
 ```bash
 docker pull ubuntu:20.04
 docker pull nginx:latest
 ```
 
-2. Histórico de camadas
+Histórico de camadas
 
 ```bash
 docker history ubuntu:20.04
